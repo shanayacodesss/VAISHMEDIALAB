@@ -1,0 +1,12 @@
+# Textures
+
+This folder stores textures and image files used in
+digital media and game development.
+
+## Asset Guidelines
+
+- Use descriptive filenames.
+- Organize textures by asset type.
+- Maintain original high-quality source files.
+- Track changes using version control.
+- Use Git LFS for suitable large binary files.
