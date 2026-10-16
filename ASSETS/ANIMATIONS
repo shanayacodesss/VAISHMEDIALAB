@@ -1,0 +1,12 @@
+# Animation Assets
+
+This folder stores animation files and related resources
+for digital media and game development.
+
+## Asset Guidelines
+
+- Organize animations by character or asset.
+- Use descriptive filenames.
+- Maintain version history.
+- Back up original animation files.
+- Use Git LFS for suitable large binary files.
