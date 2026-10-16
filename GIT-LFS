@@ -1,0 +1,32 @@
+# Git Large File Storage (Git LFS)
+
+## Purpose
+
+Git LFS is designed to manage large binary files that are
+not efficient to store directly in regular Git history.
+
+## Media File Types
+
+Git LFS can be used for suitable large files such as:
+
+- .psd
+- .wav
+- .mp4
+- .fbx
+- .blend
+
+## Benefits
+
+- Keeps the main Git repository lighter.
+- Tracks versions of large media assets.
+- Supports collaboration on media projects.
+
+## Implementation Plan
+
+Git LFS will be configured locally to track selected large
+binary file types. Large files will be tested before submission.
+
+## Important Note
+
+This document describes the planned configuration.
+Actual Git LFS tracking must be configured and tested separately.
