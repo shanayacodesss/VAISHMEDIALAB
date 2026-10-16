@@ -1,0 +1,110 @@
+# Media Security and Digital Asset Protection
+
+## 1. Introduction
+
+Digital media projects contain valuable source code,
+images, 3D models, audio, animations, and other assets.
+
+Security measures protect these resources against
+unauthorized access, theft, modification, and loss.
+
+## 2. Security Threats
+
+### 2.1 Unauthorized Access
+Attackers may gain access using stolen credentials.
+
+Mitigation: Strong passwords, MFA, and access controls.
+
+### 2.2 Phishing
+Fraudulent messages may trick developers into
+revealing credentials.
+
+Mitigation: Security awareness and phishing-resistant
+authentication.
+
+### 2.3 Malware and Ransomware
+Malicious software may damage, steal, or encrypt files.
+
+Mitigation: Updated security software and protected backups.
+
+### 2.4 Intellectual Property Theft
+Attackers may copy artwork, models, and source code.
+
+Mitigation: Restricted access, secure storage,
+and appropriate watermarking.
+
+### 2.5 Accidental Data Loss
+Files may be deleted or overwritten accidentally.
+
+Mitigation: Version control and regular backups.
+
+## 3. Authentication and MFA
+
+Authentication verifies a user's identity.
+
+Multi-Factor Authentication (MFA) adds an additional
+verification factor beyond a password.
+
+Developers should enable MFA on their GitHub accounts
+and protect their authentication credentials.
+
+## 4. Source Code Protection
+
+The following measures protect source code:
+
+- Restrict repository access to authorized users.
+- Require code reviews for important changes.
+- Protect the main branch.
+- Use meaningful commit messages.
+- Keep passwords and API keys out of source code.
+- Review changes before merging pull requests.
+
+## 5. Digital Asset Protection
+
+Digital assets should be organized into folders
+and stored using appropriate access controls.
+
+Important files should be backed up regularly.
+
+Cloud storage should use suitable access permissions,
+encryption, and versioning where available.
+
+## 6. Digital Watermarking
+
+A digital watermark adds identifying information
+to a digital asset.
+
+For example, a preview image may contain:
+
+Copyright: VAISHMEDIALAB, 2026
+
+Watermarks can help identify the source of an asset
+and discourage unauthorized reuse.
+
+However, watermarking does not prevent all copying.
+
+## 7. Threat Model
+
+| Asset | Threat | Mitigation |
+| Source code | Unauthorized modification | Branch protection and code review |
+| Images and models | Unauthorized copying | Access control and watermarking |
+| Credentials | Phishing | MFA and secure credential storage |
+| Project files | Accidental deletion | Version control and backups |
+| Cloud assets | Unauthorized access | Permissions and encryption |
+
+## 8. Cyberattack Mitigation
+
+Ransomware:
+Maintain protected backups and update software.
+
+Phishing:
+Verify suspicious messages and use MFA.
+
+Intellectual property theft:
+Restrict access and monitor repository activity.
+
+## 9. Conclusion
+
+A combination of authentication, access control,
+version control, backups, and watermarking helps
+protect source code and digital media assets.
