@@ -1,0 +1,75 @@
+# Media Asset Management and Cloud Storage
+
+## 1. Introduction
+
+Media asset management involves organizing, storing,
+tracking, and protecting digital files used in media
+and game development.
+
+## 2. Asset Folder Structure
+
+The project uses the following folder hierarchy:
+
+- Assets/Models: 3D models and objects.
+- Assets/Textures: Texture files and images.
+- Assets/Audio: Music and sound effects.
+- Assets/Animations: Animation files.
+- Assets/UI: User interface graphics.
+
+## 3. Git Large File Storage (Git LFS)
+
+Git LFS helps manage large binary files that are
+difficult to store efficiently using ordinary Git.
+
+Examples include PSD, FBX, WAV, and TIFF files.
+
+Git LFS stores large file content separately while
+maintaining references to those files in the repository.
+
+## 4. Version Control
+
+Git tracks changes to project files through commits.
+
+Each commit records a snapshot of tracked project
+content, allowing developers to inspect the history
+of changes.
+
+## 5. Rollback Strategy
+
+If an asset or document is accidentally modified,
+the developer can inspect previous commits and restore
+an earlier version.
+
+This helps recover from accidental changes.
+
+## 6. Cloud Storage
+
+Cloud object storage can be used for large media files
+and additional project backups.
+
+Access permissions should be configured to prevent
+unauthorized access.
+
+## 7. Backup and Disaster Recovery
+
+The backup strategy includes:
+
+- Maintaining a remote repository.
+- Keeping an additional local copy of important files.
+- Backing up Git LFS objects and external media assets.
+- Using versioned backups where available.
+- Testing recovery procedures periodically.
+
+## 8. Benefits
+
+- Organized digital assets.
+- Improved collaboration.
+- Easier recovery from accidental changes.
+- Reduced risk of data loss.
+- Better project maintainability.
+
+## 9. Conclusion
+
+A structured asset management workflow improves
+organization, version tracking, and the protection
+of digital media throughout development.
