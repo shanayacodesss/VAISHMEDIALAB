@@ -1,0 +1,12 @@
+# Audio Assets
+
+This folder stores audio files used in digital media
+and game development projects.
+
+## Asset Guidelines
+
+- Organize music, sound effects, and voice recordings.
+- Use descriptive filenames.
+- Keep original audio files backed up.
+- Use Git LFS for suitable large audio files.
+- Track changes and maintain version history.
