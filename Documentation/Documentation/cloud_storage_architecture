@@ -1,0 +1,50 @@
+# Cloud Storage Architecture
+
+## 1. Introduction
+Cloud storage architecture describes how digital media assets are stored, accessed, protected, and backed up. This project uses GitHub for repository management and Git LFS for handling large media files.
+
+## 2. Architecture Components
+- Local Computer: Stores and manages project files.
+- GitHub: Hosts the repository and tracks changes.
+- Git LFS: Manages large files such as images, audio, and 3D models.
+- Cloud Storage: Provides a location for storing backup copies.
+- Backup System: Helps restore files if they are lost or corrupted.
+
+## 3. Storage Structure
+The project organizes digital as
+
+- ASSETS/ANIMATIONS
+- ASSETS/AUDIO
+- ASSETS/MODELS
+- ASSETS/TEXTURES
+- ASSETS/UI
+- Documentation
+- GIT-LFS
+
+## 4. Data Flow
+1. Digital assets are created or edited on the local computer.
+2. Git tracks changes to project files.
+3. Git LFS manages supported large media files.
+4. Changes are uploaded to GitHub.
+5. Important files are backed up to a separate cloud storage location.
+6. Backup copies can be restored when necessary.
+
+## 5. Security Measures
+- Use strong passwords and two-factor authentication.
+- Restrict repository access to authorized users.
+- Review changes before merging them.
+- Avoid uploading passwords, API keys, or confidential information.
+- Maintain separate backup copies of important assets.
+
+## 6. Backup and Recovery
+Regular backups help prevent permanent data loss.
+
+Recovery procedure:
+1. Identify the missing or damaged file.
+2. Locate the latest available backup.
+3. Restore the file to the appropriate folder.
+4. Verify that the restored file works correctly.
+5. Record the recovery process.
+
+## 7. Conclusion
+The proposed architecture combines GitHub repository management, Git LFS for large files, access controls, and separate backups to support organized and reliable digital asset management.
